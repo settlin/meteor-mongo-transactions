@@ -1,6 +1,6 @@
 import {SessionOptions, ClientSession, TransactionOptions} from 'mongodb';
 
-declare module 'meteor/bhunjadi:mongo-transactions' {
+declare module 'meteor/settlin:mongo-transactions' {
     interface RunInTransactionOptions {
         sessionOptions?: SessionOptions;
         transactionOptions?: TransactionOptions;

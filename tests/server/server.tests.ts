@@ -1,4 +1,4 @@
-import {runInTransaction as _runInTransaction, isInTransaction} from 'meteor/bhunjadi:mongo-transactions';
+import {runInTransaction as _runInTransaction, isInTransaction} from 'meteor/settlin:mongo-transactions';
 import {expect} from 'chai';
 import EventEmitter from 'events';
 import {Invoice, InvoiceItem, InvoiceLog} from '../collections';

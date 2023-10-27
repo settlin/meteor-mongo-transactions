@@ -1,5 +1,5 @@
 import {Invoice, InvoiceItem} from '../collections';
-import {runInTransaction} from 'meteor/bhunjadi:mongo-transactions';
+import {runInTransaction} from 'meteor/settlin:mongo-transactions';
 
 function throwError() {
     throw new Meteor.Error('failed');

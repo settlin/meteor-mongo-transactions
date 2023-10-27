@@ -15,7 +15,7 @@ If an error is thrown inside the function passed to `runInTransaction`, transact
 
 ```
 // server-side
-import {runInTransaction} from 'meteor/bhunjadi:mongo-transactions';
+import {runInTransaction} from 'meteor/settlin:mongo-transactions';
 
 const Invoice = new Mongo.Collection('invoice');
 const LineItems = new Mongo.Collection('lineItems');
@@ -37,7 +37,7 @@ function (invoice, lineItems) {
 #### Handling errors
 
 ```
-import {runInTransaction} from 'meteor/bhunjadi:mongo-transactions';
+import {runInTransaction} from 'meteor/settlin:mongo-transactions';
 
 try {
     runInTransaction(() => {
